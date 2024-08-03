@@ -30,13 +30,16 @@ bodyClass: "page-home"
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_events | default: 6 %}
       {% for event in site.events limit: limit %}
-      <div class="col-12 col-md-4 mb-1" itemprop="hasPart" itemscope itemtype="https://schema.org/Event">
+      <div class="col-12 col-md-4 mb-1" itemprop="event" itemscope itemtype="https://schema.org/Event">
         <div class="event event-summary">
-          <div class="event-content" itemprop="itemListElement" itemscope itemtype="https://schema.org/Event">
+          <div class="event-content">
             <h2 class="event-title">
-              <a href="{{ event.url | relative_url }}" itemprop="url">{{ event.title }}</a>
+              <a href="{{ event.url | relative_url }}" itemprop="url"><span itemprop="name">{{ event.title }}</span></a>
             </h2>
             <p itemprop="description">{{ event.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            <meta itemprop="startDate" content="{{ event.date | date_to_xmlschema }}">
+            <meta itemprop="location" content="{{ event.location }}">
+            <meta itemprop="organizer" content="Trump Train MAGA Rally">
           </div>
         </div>
       </div>

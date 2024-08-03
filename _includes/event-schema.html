@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ include.event.title }}",
+  "description": "{{ include.event.description | strip_html | strip_newlines | truncate: 160 }}",
+  "startDate": "{{ include.event.date | date_to_xmlschema }}",
+  {% if include.event.endDate %}
+  "endDate": "{{ include.event.endDate | date_to_xmlschema }}",
+  {% endif %}
+  "location": {
+    "@type": "Place",
+    "name": "{{ include.event.location }}"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Trump Train MAGA Rally"
+  },
+  "url": "{{ site.url }}{{ include.event.url }}",
+  {% if include.event.image %}
+  "image": "{{ site.url }}{{ include.event.image }}",
+  {% endif %}
+  "eventStatus": "{{ include.event.eventStatus | default: "https://schema.org/EventScheduled" }}",
+  "eventAttendanceMode": "{{ include.event.eventAttendanceMode | default: "https://schema.org/OfflineEventAttendanceMode" }}"
+}
+</script>

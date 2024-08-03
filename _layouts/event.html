@@ -3,19 +3,30 @@ layout: default
 bodyClass: "page-event"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10" itemscope itemtype="https://schema.org/Event">
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      <div class="event event-single">
+      <div class="event event-single" itemscope itemtype="https://schema.org/Event">
         <h1 class="title" itemprop="name">{{ page.title }}</h1>
         <div class="content" itemprop="description">{{ content }}</div>
         {% if page.image %}
         <img alt="{{ page.title }}" src="{{ page.image | relative_url }}" itemprop="image" class="img-fluid mb-4">
         {% endif %}
-        {% if page.eventType %}
-        <meta itemprop="eventType" content="{{ page.eventType }}">
+        <meta itemprop="startDate" content="{{ page.date | date_to_xmlschema }}">
+        <meta itemprop="location" content="{{ page.location }}">
+        <meta itemprop="organizer" content="Trump Train MAGA Rally">
+        {% if page.endDate %}
+        <meta itemprop="endDate" content="{{ page.endDate | date_to_xmlschema }}">
+        {% endif %}
+        {% if page.eventStatus %}
+        <meta itemprop="eventStatus" content="{{ page.eventStatus }}">
+        {% endif %}
+        {% if page.eventAttendanceMode %}
+        <meta itemprop="eventAttendanceMode" content="{{ page.eventAttendanceMode }}">
         {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+{% include event-schema.html event=page %}

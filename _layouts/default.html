@@ -57,35 +57,34 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Event",
-    "eventType": "{{ page.title }}",
-    "provider": {
-      "@type": "Organization",
-      "name": "{{ site.title }}",
-      "url": "{{ site.url }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ site.url }}/images/logo.svg"
-      }
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Palm Beach County",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Palm Beach County",
-        "addressRegion": "FL",
-        "addressCountry": "US"
-      }
-    },
-    "description": "{{ page.description }}",
-    {% if page.intro_image %}
-    "image": "{{ page.intro_image | absolute_url }}",
-    {% elsif page.image %}
-    "image": "{{ page.image | absolute_url }}",
-    {% endif %}
-    "name": "{{ page.title }}",
-    "url": "{{ page.url | absolute_url }}"
+    "@type": "Organization",
+    "name": "Trump Train MAGA Rally",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/images/logo/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/DonaldTrump/",
+      "https://twitter.com/realDonaldTrump",
+      "https://www.instagram.com/realdonaldtrump/"
+    ],
+    "event": [
+      {% for event in site.events %}
+      {
+        "@type": "Event",
+        "name": "{{ event.title }}",
+        "description": "{{ event.description | strip_html | strip_newlines | truncate: 160 }}",
+        "startDate": "{{ event.date | date_to_xmlschema }}",
+        "location": {
+          "@type": "Place",
+          "name": "{{ event.location }}"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Trump Train MAGA Rally"
+        },
+        "url": "{{ site.url }}{{ event.url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
   }
   </script>
 

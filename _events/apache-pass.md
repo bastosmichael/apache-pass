@@ -4,6 +4,10 @@ date: 2024-08-02T12:33:46+10:00
 weight: 4
 description: "Join us at Apache Pass Camp Grounds for the grand finale of the Trump Train MAGA Rally!"
 intro_image: "/images/events/apache-pass.jpeg"
+location: "Apache Pass Camp Grounds, Milam County, Texas"
+endDate: 2024-08-03T23:59:59+10:00
+eventStatus: "https://schema.org/EventScheduled"
+eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode"
 ---
 
 The Trump Train MAGA Rally concludes at the Apache Pass Camp Grounds!
