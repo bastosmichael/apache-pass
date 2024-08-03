@@ -14,10 +14,10 @@ The Trump Train MAGA Rally brings together passionate patriots and influential c
 
 Our esteemed lineup includes:
 
+- **Michael & Christina Bastos** - Event Coordinators
+- **Shann Turner** - Social Media Manager
+- **Mel Cooper** - Event Planner
 - **Sid Miller** - Texas Agriculture Commissioner
-- **[Other Speaker Name]** - [Title/Position]
-- **[Other Speaker Name]** - [Title/Position]
-- **[Other Speaker Name]** - [Title/Position]
 
 These influential conservatives will share their insights on:
 
@@ -27,9 +27,3 @@ These influential conservatives will share their insights on:
 - The critical role of grassroots movements in shaping our nation's future
 
 Don't miss this opportunity to hear from and interact with these powerful voices in the conservative movement. Join us at the Trump Train MAGA Rally to be inspired, informed, and energized for the fight ahead!
-
-Our lineup has prominent figures from Texas politics, national conservative leaders, and grassroots organizers who have been instrumental in the MAGA movement. Each speaker brings unique insights and experiences that will inspire and motivate rally attendees.
-
-Stay tuned as we announce more high-profile speakers and special guests in the coming weeks. Don't miss this opportunity to hear from some of the most influential voices in the conservative movement!
-
-[Register Now](/contact/) to secure your spot at this historic event and show your support for Donald Trump and the America First agenda.
