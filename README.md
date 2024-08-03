@@ -87,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or concerns, please contact the website administrator at [insert contact email].
 
-Let's make America great again! 🇺🇸
+Let's make America great again!
