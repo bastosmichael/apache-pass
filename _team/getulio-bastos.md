@@ -1,14 +1,12 @@
 ---
-title: "Getulio Bastos"
+title: "Mel Cooper"
 date: 2024-06-06T10:47:58+10:00
 image: "images/team/getulio-bastos.jpg"
-jobtitle: "Business Owner"
-# linkedinurl: ""
+jobtitle: "Event Planner"
 weight: 1
 ---
 
-Getulio Bastos leads Surface Remodel with decades of hands-on experience and a passion for quality and customer satisfaction. His expertise in remodeling ensures that every project is completed to the highest standards.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisi vel consectetur interdum, nisl nunc egestas nunc, vitae tincidunt nisl nunc euismod nunc. Donec euismod, nisi vel consectetur interdum, nisl nunc egestas nunc, vitae tincidunt nisl nunc euismod nunc.
 
-Getulio is dedicated to delivering top-quality services that enhance the beauty and functionality of your home. His commitment to excellence and attention to detail have earned him a reputation as a trusted professional in the industry.
-
-When not overseeing projects, Getulio enjoys spending time with his family and staying up-to-date with the latest industry trends and techniques.
+Contact: deedeebastos@gmail.com
+Phone: 8583494034
