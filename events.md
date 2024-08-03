@@ -41,3 +41,33 @@ Join us for an action-packed day of patriotism, inspiring speeches, and family-f
 - 3:00 PM - Event Conclusion and Departure
 
 Don't miss this incredible opportunity to show your support for Donald Trump and connect with fellow patriots. [Register now](/contact/) to secure your spot in the Trump Train MAGA Rally!
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for event in site.events %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Event",
+        "name": "{{ event.title }}",
+        "description": "{{ event.description | strip_html | strip_newlines | truncate: 160 }}",
+        "startDate": "{{ event.date | date_to_xmlschema }}",
+        "location": {
+          "@type": "Place",
+          "name": "{{ event.location }}"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Trump Train MAGA Rally"
+        },
+        "url": "{{ site.url }}{{ event.url }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
