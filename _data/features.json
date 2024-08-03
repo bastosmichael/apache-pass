@@ -3,7 +3,7 @@
     "title": "Vinyl Flooring Installation",
     "description": "Transform your space with durable and stylish vinyl flooring expertly installed by our team.",
     "image": {
-      "url": "images/services/vinyl-flooring.png",
+      "url": "images/events/vinyl-flooring.png",
       "width": 80,
       "height": 80
     }
@@ -12,7 +12,7 @@
     "title": "Faux Quartz Countertop Finish",
     "description": "Get the look of luxurious quartz countertops without the high cost. Our faux finishes are stunning and affordable.",
     "image": {
-      "url": "images/services/faux-quartz.png",
+      "url": "images/events/faux-quartz.png",
       "width": 80,
       "height": 80
     }
@@ -21,7 +21,7 @@
     "title": "Bathroom Wall Tile Painting",
     "description": "Refresh your bathroom with beautifully painted wall tiles, done with precision and care.",
     "image": {
-      "url": "images/services/bathroom-wall-tile.png",
+      "url": "images/events/bathroom-wall-tile.png",
       "width": 80,
       "height": 80
     }

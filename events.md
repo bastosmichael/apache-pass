@@ -2,7 +2,7 @@
 title: Rally Schedule
 layout: events
 description: Trump Train MAGA Rally Schedule of Events
-intro_image: "images/features/rally-schedule.jpg"
+intro_image: "images/features/map.jpeg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---

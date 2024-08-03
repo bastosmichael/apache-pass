@@ -1,5 +1,5 @@
 ---
-title: "Sid Miller"
+title: "Speaker: Sid Miller"
 date: 2024-01-01T10:00:00+10:00
 image: "images/team/sid-miller.jpg"
 jobtitle: "Texas Agriculture Commissioner"
