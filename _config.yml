@@ -11,7 +11,7 @@ logo:
   desktop_width: "272px"
 
 home: 
-  limit_services: 6
+  limit_events: 6
 
 collections:
   events:
