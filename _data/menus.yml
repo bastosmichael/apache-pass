@@ -1,14 +1,17 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "About"
     url: "/about/"
+    weight: 2
+  - name: "Schedule"
+    url: "/events/"
+    weight: 3
+  - name: "Speakers"
+    url: "/team/"
     weight: 4
-  - name: "Get a Quote"
+  - name: "Register"
     url: "/contact/"
     weight: 5
 
@@ -16,6 +19,6 @@ footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Get a Quote"
+  - name: "Contact"
     url: "/contact/"
     weight: 2

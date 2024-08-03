@@ -1,12 +1,17 @@
 [
   {
     "name": "Facebook",
-    "link": "https://facebook.com/SurfaceRemodel",
+    "link": "https://www.facebook.com/DonaldTrump/",
     "image": "images/social/facebook.svg"
   },
   {
-    "name": "Email",
-    "link": "mailto:getuliobastos1@gmail.com",
-    "image": "images/social/email.svg"
+    "name": "Twitter",
+    "link": "https://twitter.com/realDonaldTrump",
+    "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/realdonaldtrump/",
+    "image": "images/social/instagram.svg"
   }
 ]
