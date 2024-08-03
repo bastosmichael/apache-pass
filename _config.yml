@@ -1,6 +1,6 @@
-baseurl: '/' #'https://surfaceremodeling.net/'
+baseurl: '/'
 permalink: pretty
-title: 'Surface Remodel'
+title: 'Trump Train MAGA Rally'
 
 logo:
   mobile: "images/logo/logo-mobile.png"
@@ -14,7 +14,7 @@ home:
   limit_services: 6
 
 collections:
-  services:
+  events:
     output: true
     sort_by: weight
   team:
@@ -23,9 +23,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "events"
     values:
-      layout: "service"
+      layout: "event"
   - scope:
       path: ""
       type: "team"
@@ -33,7 +33,7 @@ defaults:
       layout: "team"
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
   - jekyll-environment-variables

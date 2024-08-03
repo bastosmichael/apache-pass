@@ -1,81 +1,90 @@
-# Surface Remodel Website
+# Trump Train MAGA Rally Website
 
-Welcome to the Surface Remodel website repository. This project is designed to create a comprehensive and professional online presence for the Surface Remodel business, which specializes in resurfacing bathtubs, toilets, and showers/bathrooms, as well as providing expert electrical services.
+Welcome to the official repository for the Trump Train MAGA Rally website. This project is designed to create a comprehensive and engaging online presence for the upcoming Trump Train MAGA Rally, which will travel across 4 counties and culminate at Apache Pass Camp Grounds.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Generated Content](#generated-content)
-- [Logo and Icons](#logo-and-icons)
-- [Team Profiles](#team-profiles)
-- [Services Pages](#services-pages)
-- [Configuration Files](#configuration-files)
-- [Credits](#credits)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
-This repository includes the following:
+This website serves as the central hub for information about the Trump Train MAGA Rally. It provides details about the event, including the rally schedule, speaker information, registration process, and more. The site is built using Jekyll, a static site generator, which allows for easy content management and fast loading times.
 
-1. **Jekyll Configuration**: Customizing the Jekyll configuration to match the business needs.
-2. **Logo and Icons**: Creating a professional logo and icons for features.
-3. **Team Profiles**: Detailing team members and their roles.
-4. **Services Pages**: Providing detailed descriptions of the services offered.
-5. **Markdown Files**: Setting up necessary markdown files for different sections of the website.
+## Features
 
-## Generated Content
+- Responsive design for mobile and desktop devices
+- Event schedule and details
+- Speaker profiles
+- Online registration form
+- Interactive map of the rally route (to be implemented)
+- Social media integration
+- Blog/news section for updates (to be implemented)
 
-The content in this repository was generated using the GPT-4 model by OpenAI. The model was used to create text content for various sections of the website, including:
+## Installation
 
-- Team member profiles
-- Service descriptions
-- About and Contact pages
+To set up this project locally, follow these steps:
 
-## Logo and Icons
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/trump-train-maga-rally.git
+   ```
 
-The logos and icons were created using the DALL-E model by OpenAI. The icons were designed to visually represent the key features of the business:
+2. Navigate to the project directory:
+   ```
+   cd trump-train-maga-rally
+   ```
 
-1. **Free Consultation**: An icon representing consultation services.
-2. **Expert Resurfacing**: An icon depicting resurfacing services.
-3. **Professional Electrical Work**: An icon symbolizing electrical services.
+3. Install Jekyll and bundler gems:
+   ```
+   gem install jekyll bundler
+   ```
 
-## Team Profiles
+4. Install project dependencies:
+   ```
+   bundle install
+   ```
 
-Detailed profiles for each team member were created to highlight their roles and contributions to Surface Remodel:
+5. Build and serve the site locally:
+   ```
+   bundle exec jekyll serve
+   ```
 
-1. **Getulio Bastos**: Business Owner
-2. **Brian Bastos**: Manager
-3. **Roseanne Bastos**: Executive Assistant
+6. Open your browser and visit `http://localhost:4000` to view the site.
 
-## Services Pages
+## Usage
 
-Each service offered by Surface Remodel has a dedicated markdown file with detailed descriptions:
+To add or modify content, edit the Markdown files in the project root and within the `_events` and `_team` directories. The `_config.yml` file contains site-wide configuration options.
 
-1. **Bathtub Resurfacing**
-2. **Toilet Resurfacing**
-3. **Shower/Bathroom Resurfacing**
-4. **Electrical Wiring and Rewiring**
-5. **Installation of Outlets, Switches, and Light Fixtures**
-6. **Troubleshooting Electrical Issues**
+To create a new page:
 
-## Configuration Files
+1. Create a new Markdown file in the project root or appropriate directory.
+2. Add the necessary front matter at the top of the file.
+3. Add your content using Markdown syntax.
 
-The Jekyll `_config.yml` and other necessary configuration files were customized to ensure the website aligns with the business branding and functionality:
+## Contributing
 
-- **_config.yml**: Updated for Surface Remodel.
-- **contact.yml**: Custom contact information.
-- **features.json**: Details of key features.
-- **social.json**: Links to social media accounts.
-- **team.md**: Information about the team.
-- **services.md**: Description of services offered.
-- **about.md**: Information about the business.
-- **contact.md**: Contact details and request for quotes.
+We welcome contributions to improve the Trump Train MAGA Rally website. To contribute:
 
-## Credits
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature-name`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin feature/your-feature-name`)
+6. Create a new Pull Request
 
-This project was built using OpenAI's GPT-4 and DALL-E models. The text content and visual assets were generated with the assistance of these advanced AI tools to create a professional and comprehensive website for Surface Remodel.
+Please ensure your code adheres to the existing style and that you've tested your changes before submitting a pull request.
 
-For more information or questions, please contact [getuliobastos1@gmail.com](mailto:getuliobastos1@gmail.com).
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Thank you for visiting the Surface Remodel website repository!
+For any questions or concerns, please contact the website administrator at [insert contact email].
+
+Let's make America great again! 🇺🇸
