@@ -1,8 +1,8 @@
 ---
-title: "Shann Turner"
+title: "Michael & Christina Bastos"
 date: 2024-06-06T10:47:58+10:00
-image: "images/team/brian-bastos.jpg"
-jobtitle: "Social Media Manager"
+image: "images/team/bastos.jpg"
+jobtitle: "Organizers of Chaos"
 weight: 3
 ---
 

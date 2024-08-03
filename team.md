@@ -14,8 +14,8 @@ The Trump Train MAGA Rally brings together passionate patriots and influential c
 
 Our esteemed lineup includes:
 
-- **Michael & Christina Bastos** - Event Coordinators
-- **Shann Turner** - Social Media Manager
+- **Michael & Christina Bastos** - Milam Constitutional Conservatives
+- **Shann Turner** - Event Organizer
 - **Mel Cooper** - Event Planner
 - **Sid Miller** - Texas Agriculture Commissioner
 
